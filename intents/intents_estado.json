@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "pregunta_estado",
+      "patterns": [
+        "Como estas?",
+        "Que tal ?",
+        "Como vas ?",
+        "Todo bien ?",
+        "Estas bien ?",
+        "Como te sientes?"
+      ],
+      "responses": [
+        "Estoy muy bien gracias"
+      ]
+    },
+    {
+      "tag": "pregunta_feliz",
+      "patterns": [
+        "Estas feliz ?",
+        "Eres feliz ?",
+        "Te sientes feliz ?"
+      ],
+      "responses": [
+        "Claro, estoy feliz"
+      ]
+    }
+  ]
+}

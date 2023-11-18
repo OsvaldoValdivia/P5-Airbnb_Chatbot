@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "tag": "despedida_simple",
+      "patterns": [
+        "Adios",
+        "Hasta luego",
+        "Nos vemos",
+        "Bye",
+        "Chao"
+      ],
+      "responses": [
+        "Hasta luego"
+      ]
+    },
+    {
+      "tag": "despedida_gracias",
+      "patterns": [
+        "Gracias, hasta luego",
+        "Gracias, buen dia",
+        "Gracias, bye",
+        "Gracias, adios",
+        "Gracias, buenos días"
+      ],
+      "responses": [
+        "Un placer, hasta luego"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "saludo_simple",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "Que tal ?"
+      ],
+      "responses": [
+        "Hola"
+      ]
+    },
+    {
+      "tag": "saludo_dias",
+      "patterns": [
+        "Buenos dias",
+        "Buenos días",
+        "Buen día",
+        "Hola, buen día",
+        "Hola, buenos días",
+        "Que tal? Buenos días",
+        "Que tal? Buen día",
+        "Que tal? Buenos dias",
+        "Que tal? Buen dia"
+      ],
+      "responses": [
+        "Hola, buenos días",
+        "Buenos días"
+      ]
+    },
+    {
+        "tag": "saludo_tardes",
+        "patterns": [
+          "Buenas tardes",
+          "Hola, buenas tardes",
+          "Que tal? Buenas tardes",
+          "Que tal? Buena tarde",
+          "Buena tarde"
+        ],
+        "responses": [
+          "Hola, buenas tardes",
+          "Buenas tardes"
+        ]
+      },
+      {
+        "tag": "saludo_noches",
+        "patterns": [
+          "Buenas noches",
+          "Hola, buenas noches",
+          "Que tal? Buenas noches",
+          "Que tal? Buena noche"
+        ],
+        "responses": [
+          "Hola, buena noche"
+        ]
+      }
+  ]
+}
