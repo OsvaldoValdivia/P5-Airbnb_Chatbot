@@ -23,12 +23,13 @@ class IntentsLoad:
                 output_json['intents'].append(intent)
 
 
-        with open('intents.json', 'w',encoding='utf-8') as output_file:
+        with open('model_files/intents.json', 'w',encoding='utf-8') as output_file:
                 json.dump(output_json, output_file, ensure_ascii=False)
 
 
 i = IntentsLoad(["intents/intents_saludos.json",
                  "intents/intents_despedidas.json",
-                 "intents/intents_estado.json"
+                 "intents/intents_estado.json",
+                 "intents/intents_yo.json"
                 ])
 i.merge_jsons()

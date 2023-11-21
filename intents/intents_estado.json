@@ -11,7 +11,8 @@
         "Como te sientes?"
       ],
       "responses": [
-        "Estoy muy bien gracias"
+        "Estoy muy bien gracias",
+        "Fresco"
       ]
     },
     {
@@ -19,7 +20,9 @@
       "patterns": [
         "Estas feliz ?",
         "Eres feliz ?",
-        "Te sientes feliz ?"
+        "Te sientes feliz ?",
+        "Te sientes bien ?",
+        "Estas bien ?"
       ],
       "responses": [
         "Claro, estoy feliz"

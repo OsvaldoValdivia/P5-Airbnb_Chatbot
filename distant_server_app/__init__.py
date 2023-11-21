@@ -5,7 +5,7 @@ import requests
  
 app = Flask(__name__)
  
-with open('config.json') as f:
+with open('distant_server_app/config.json') as f:
     config = json.load(f)
  
 app.config.update(config)
@@ -13,7 +13,7 @@ app.config.update(config)
  
 @app.route('/', methods=['GET'])
 def welcome():
-    return 'Hola mundo'
+    return 'Distant server online to connect with Meta API'
     
 
 @app.route('/webhook/', methods=['GET'])

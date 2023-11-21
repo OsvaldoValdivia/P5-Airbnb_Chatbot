@@ -16,7 +16,6 @@
       "patterns": [
         "Buenos dias",
         "Buenos días",
-        "Buen día",
         "Hola, buen día",
         "Hola, buenos días",
         "Que tal? Buenos días",
@@ -27,6 +26,15 @@
       "responses": [
         "Hola, buenos días",
         "Buenos días"
+      ]
+    },
+    {
+      "tag": "saludo_dias_otro",
+      "patterns": [
+        "Buen día"
+      ],
+      "responses": [
+        "Buen día"
       ]
     },
     {
@@ -46,13 +54,22 @@
       {
         "tag": "saludo_noches",
         "patterns": [
-          "Buenas noches",
           "Hola, buenas noches",
           "Que tal? Buenas noches",
           "Que tal? Buena noche"
         ],
         "responses": [
           "Hola, buena noche"
+        ]
+      },
+      {
+        "tag": "saludo_noches_otro",
+        "patterns": [
+          "Buenas noches",
+          "Buena noche"
+        ],
+        "responses": [
+          "Buenas noches"
         ]
       }
   ]

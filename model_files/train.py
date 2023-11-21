@@ -6,7 +6,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from model import NeuralNet
 
-with open('intents.json', 'r') as f:
+with open('model_files/intents.json', 'r') as f:
     intents = json.load(f)
 
 
@@ -110,7 +110,7 @@ data = {
     'tags' : tags
 }
 
-FILE = 'data.path'
+FILE = 'model_files/data.path'
 torch.save(data, FILE)
 
 print(f'Training complete. File saved to {FILE}')
